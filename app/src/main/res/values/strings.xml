@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">News App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Nereek_2023">Nereek.io © 2023</string>
+    <string name="news">News</string>
+    <string name="empty">Empty</string>
+    <string name="lorem_ipsum_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="open_in_browser">open in browser</string>
+    <string name="usa">USA</string>
+    <string name="fr">FR</string>
+    <string name="error_no_internet">No Internet Connection</string>
+</resources>

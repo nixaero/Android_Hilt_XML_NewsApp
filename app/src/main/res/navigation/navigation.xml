@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/newsListFragment">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="mob.nereek.hiltapp.ui.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/newsListFragment"
+        android:name="mob.nereek.hiltapp.ui.newslist.NewsListFragment"
+        android:label="NewsListFragment" />
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="mob.nereek.hiltapp.ui.splashscreen.SplashScreenFragment"
+        android:label="SplashScreenFragment" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_newsListFragment"
+            app:destination="@id/newsListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+</navigation>
